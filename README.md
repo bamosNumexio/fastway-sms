@@ -6,6 +6,20 @@ Il vous permet d’intégrer l’envoi de SMS dans n’importe quel projet PHP *
 
 ---
 
+## Prérequis
+
+Avant d’utiliser ce SDK, vous devez :
+
+1. Avoir un compte Fastway SMS valide : [https://fastway-sms.net/](https://fastway-sms.net/#)
+2. Récupérer vos identifiants (username et password) depuis votre espace client Fastway.
+
+Autres prérequis techniques :
+
+- PHP ≥ 7.4
+- cURL activé
+
+---
+
 ## Installation
 
 Installez le package avec Composer :
@@ -141,14 +155,6 @@ fastway-sms/
 └── src/
     └── FastwaySms.php
 ```
-
----
-
-# Prérequis
-
-- PHP ≥ 7.4
-- cURL activé
-- Identifiants Fastway SMS valides
 
 ---
 
