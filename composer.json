@@ -1,0 +1,13 @@
+{
+    "name": "numexio/fastway-sms",
+    "description": "SDK PHP pour envoyer des SMS via Fastway SMS API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "FastwaySms\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
