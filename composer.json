@@ -2,6 +2,7 @@
     "name": "numexio/fastway-sms",
     "description": "SDK PHP pour envoyer des SMS via Fastway SMS API",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "FastwaySms\\": "src/"
